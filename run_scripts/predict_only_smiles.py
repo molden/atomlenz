@@ -193,7 +193,7 @@ def main(model_cls, data_cls, args, logger = None):
         predictions+=1
         predictions_list.append([image_idx,pred_smiles,problematic])
                 #import ipdb; ipdb.set_trace()
-    file_preds = open('preds_handdrawn_mapdataset_chemgrapher2','w')
+    file_preds = open('preds_atomlenz','w')
     for pred in predictions_list:
         file_preds.write(f"{pred[0]},{pred[1]},{pred[2]}\n")
         #import ipdb; ipdb.set_trace()
