@@ -4,6 +4,15 @@ AtomLenz is a chemical structure recognition tool providing atom-level localizat
 
 ## Prerequisites
 
+install [ProbKT](https://github.com/molden/ProbKT)
+
 ## Install
+
+install AtomLenz:
+
+``
+pip install -e .
+``
+
 
 ## Getting Started
