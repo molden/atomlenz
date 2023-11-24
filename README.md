@@ -24,7 +24,7 @@ download models in [models folder](./models/README.md)
 ### Predict images to SMILES
 
 ```
-python run_scripts/predict_only_smiles.py --experiment_path_atoms models/atoms_model --experiment_path_bonds models/bonds_model --experiment_path_stereo models/stereos_model --experiment_path_charges models/charges_model --data_path datasets/hand_drawn_dataset/test/ --score_thresh 0.65
+python run_scripts/predict_only_smiles.py --experiment_path_atoms models/atoms_model --experiment_path_bonds models/bonds_model --experiment_path_stereo models/stereos_model --experiment_path_charges models/charges_model --data_path ../datasets/hand_drawn_dataset/test/ --score_thresh 0.65
 ```
 
 predictions are stored in ``preds_atomlenz`` file.
@@ -32,7 +32,7 @@ predictions are stored in ``preds_atomlenz`` file.
 In case true SMILES are available for dataset also performance metrics can be reported:
 
 ```
-python run_scripts/predict_smiles.py --experiment_path_atoms models/atoms_model --experiment_path_bonds models/bonds_model --experiment_path_stereo models/stereos_model --experiment_path_charges models/charges_model --data_path datasets/hand_drawn_dataset/test/ --score_thresh 0.65
+python run_scripts/predict_smiles.py --experiment_path_atoms models/atoms_model --experiment_path_bonds models/bonds_model --experiment_path_stereo models/stereos_model --experiment_path_charges models/charges_model --data_path ../datasets/hand_drawn_dataset/test/ --score_thresh 0.65
 ```
 
 predictions are stored in ``preds_atomlenz_long`` file.
