@@ -17,4 +17,4 @@ pip install -e .
 
 ## Getting Started
 
-download datasets in [datasets folder](./datasets/)
+download datasets in [datasets folder](./datasets/README.md)
