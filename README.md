@@ -18,4 +18,11 @@ pip install -e .
 ## Getting Started
 
 download datasets in [datasets folder](./datasets/README.md)
-download models in
+
+download models in [models folder](./models/README.md)
+
+### Predict images to SMILES
+
+```
+python run_scripts/predict_only_smiles.py --experiment_path_atoms models/atoms_model --experiment_path_bonds models/bonds_model --experiment_path_stereo models/stereos_model --experiment_path_charges models/charges_model --data_path datasets/hand_drawn_dataset/test/ --score_thresh 0.65
+```
