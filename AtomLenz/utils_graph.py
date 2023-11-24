@@ -4,7 +4,8 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 import pathlib
-from Object_Smiles import Objects_Smiles 
+from AtomLenz import Object_Smiles
+#from Object_Smiles import Objects_Smiles 
 import copy
 from rdkit import Chem
 import pytorch_lightning as pl

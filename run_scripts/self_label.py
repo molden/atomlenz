@@ -5,8 +5,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pathlib
 import shutil
-from utils_graph import *
-from Object_Smiles import Objects_Smiles 
+from AtomLenz import *
+#from utils_graph import *
+#from Object_Smiles import Objects_Smiles 
 from skimage import io, transform, color, data
 from skimage.transform import resize
 
