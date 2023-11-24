@@ -251,7 +251,7 @@ def main(model_cls, data_cls, args, logger = None):
         predictions+=1
         predictions_list.append([image_idx,pred_smiles,match_smiles,problematic])
                 #import ipdb; ipdb.set_trace()
-    file_preds = open('preds_handdrawn_train_wo_dangling_chemgrapher2','w')
+    file_preds = open('preds_atomlenz_long','w')
     for pred,tanimoto in zip(predictions_list,tanimoto_dists):
         file_preds.write(f"{pred[0]},{pred[1]},{tanimoto},{pred[2]},{pred[3]}\n")
         #import ipdb; ipdb.set_trace()
