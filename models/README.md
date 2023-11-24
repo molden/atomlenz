@@ -30,10 +30,7 @@ Extract the models:
 
 ```
 tar -xvzf atoms_model.tar.gz
-
 tar -xvzf bonds_model.tar.gz
-
 tar -xvzf charges_model.tar.gz
-
 tar -xvzf stereos_model.tar.gz
 ```
