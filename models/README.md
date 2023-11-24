@@ -28,7 +28,7 @@ wget -O stereos_model.tar.gz https://figshare.com/ndownloader/files/43282059?pri
 
 Extract the models:
 
-``
+```
 tar -xvzf atoms_model.tar.gz
 
 tar -xvzf bonds_model.tar.gz
@@ -36,4 +36,4 @@ tar -xvzf bonds_model.tar.gz
 tar -xvzf charges_model.tar.gz
 
 tar -xvzf stereos_model.tar.gz
-``
+```
