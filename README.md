@@ -16,3 +16,5 @@ pip install -e .
 
 
 ## Getting Started
+
+download datasets in [datasets folder](./datasets/)
