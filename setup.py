@@ -8,5 +8,5 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="",
     packages=setuptools.find_packages(),
-    install_requires=["matplotib", "rdkit", "robust_detection"],
+    install_requires=["rdkit", "robust_detection"],
     )
