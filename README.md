@@ -5,7 +5,7 @@ AtomLenz is a chemical structure recognition tool providing atom-level localizat
 
 ## Reference
 
-If you like this work, consider citing our related paper accepted in ***CVPR 2024****:
+If you like this work, consider citing our related paper accepted in ***CVPR 2024***:
 
 ```
 @article{oldenhof2024atom,
