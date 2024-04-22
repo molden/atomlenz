@@ -5,7 +5,7 @@ AtomLenz is a chemical structure recognition tool providing atom-level localizat
 
 ## Reference
 
-If you like this work, consider citing our related paper accepted in CVPR 2024:
+If you like this work, consider citing our related paper accepted in ***CVPR 2024****:
 
 ```
 @article{oldenhof2024atom,
@@ -15,7 +15,11 @@ If you like this work, consider citing our related paper accepted in CVPR 2024:
   year={2024}
 }
 ```
+## Huggingface Space
 
+Please check out our huggingface space if you want to quickly test AtomLenz:
+
+[AtomLenz Space](https://huggingface.co/spaces/moldenhof/atomlenz)
 ## Prerequisites
 
 install [ProbKT](https://github.com/molden/ProbKT)
