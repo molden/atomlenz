@@ -1,7 +1,20 @@
 # AtomLenz (ATOM-Level ENtity localiZation)
 
-## Atom-Level Optical Chemical Structure Recogition with Limited Supervision (accepted in CVPR2024)
+
 AtomLenz is a chemical structure recognition tool providing atom-level localization, and can therefore segment the image into the different atoms and bonds. Our method operates by using a self-labeling strategy to generate atom-level annotations, enhancing the dataset’s value, and using this enriched representation to fine-tune the model to a new domain.
+
+## Reference
+
+If you like this work, consider citing our related paper accepted in CVPR 2024:
+
+```
+@article{oldenhof2024atom,
+  title={Atom-Level Optical Chemical Structure Recognition with Limited Supervision},
+  author={Oldenhof, Martijn and De Brouwer, Edward and Arany, Adam and Moreau, Yves},
+  journal={arXiv preprint arXiv:2404.01743},
+  year={2024}
+}
+```
 
 ## Prerequisites
 
