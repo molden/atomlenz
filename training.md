@@ -1,6 +1,11 @@
 # (Pre)Train AtomLenz
 
 This is the pretraining step of AtomLenz on synthetically generated data with localization labels.
+The pretrained models (following these steps) are made available here:
+* Atom model: https://huggingface.co/spaces/moldenhof/atomlenz/resolve/main/models/atoms_model/synthetic.ckpt
+* Bond model: https://huggingface.co/spaces/moldenhof/atomlenz/resolve/main/models/bonds_model/synthetic.ckpt
+* Charge model: https://huggingface.co/spaces/moldenhof/atomlenz/resolve/main/models/charges_model/synthetic.ckpt
+* Stereo center model: https://huggingface.co/spaces/moldenhof/atomlenz/resolve/main/models/stereos_model/synthetic.ckpt
 
 ## Download synthetically generated datasets
 
