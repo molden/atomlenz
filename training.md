@@ -1,4 +1,6 @@
-# Train AtomLenz
+# (Pre)Train AtomLenz
+
+This is the pretraining step of AtomLenz on synthetically generated data with localization labels.
 
 ## Download synthetically generated datasets
 
@@ -13,7 +15,7 @@ As (part of) the training of AtomLenz is based on ProbKT, we refer you to the in
 
 ## Configuration
 
-Once ProbKT is installed the downloaded datasets need to be copied (and extracted) to the ``generate_data`` folder of ProbKT.
+Once ProbKT is installed, the downloaded datasets need to be copied (and extracted) to the ``generate_data`` folder of ProbKT.
 
 ## Run first training round
 
