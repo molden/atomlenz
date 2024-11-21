@@ -39,7 +39,7 @@ download datasets in [datasets folder](./datasets/README.md)
 
 download models in [models folder](./models/README.md)
 
-### Predict SMILES
+## Predict SMILES
 
 ```
 python run_scripts/predict_only_smiles.py --experiment_path_atoms models/atoms_model --experiment_path_bonds models/bonds_model --experiment_path_stereo models/stereos_model --experiment_path_charges models/charges_model --data_path ../datasets/hand_drawn_dataset/test/ --score_thresh 0.65
@@ -54,3 +54,11 @@ python run_scripts/predict_smiles.py --experiment_path_atoms models/atoms_model 
 ```
 
 predictions are stored in ``preds_atomlenz_long`` file.
+
+## Pretraining AtomLenz
+
+The procedure to pretrain AtomLenz is described here: [pretrained atomlenz](./training.md)
+
+## Train AtomLenz on target domain
+
+The procedure to train AtomLenz on target domain is described here: [train atomlenz](./training2.md)
