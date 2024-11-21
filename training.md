@@ -22,10 +22,14 @@ As (part of) the training of AtomLenz is based on ProbKT, we refer you to the in
 
 Once ProbKT is installed, the downloaded datasets need to be copied (and extracted) to the ``generate_data`` folder of ProbKT.
 
-## Run first training round
+## Run first training round (pretraining)
 
 For the pretraining of the RCNN object detection models of AtomLenz the following command needs to be executed for each dataset (atoms/bonds/charges/stereo-centers):
 
 ```
 python robust_detection/train/train_rcnn.py --data_path path_to_datasetfolder_inside_generated_data
 ```
+
+## Run second training round
+
+The second traing round is descriped here: [train atomlenz](./training2.md)
