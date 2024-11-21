@@ -15,7 +15,7 @@ trained models using below steps can be found here:
 AtomLenz can be trained on images with only SMILES labels. One such a dataset is available here: https://dx.doi.org/10.6084/m9.figshare.24599412 . 
 This is a dataset with hand drawn images labeled with the corresponding SMILES.
 
-Once downloaded this dataset should be prepared for use by ProbKT. This can be done with  [parse smiles](./datasets/parse_smiles.py) script.
+Once downloaded, this dataset should be prepared for use by ProbKT. This can be done with  [parse smiles](./datasets/parse_smiles.py) script.
 
 ```
 python parse_smiles.py --datasetfolder hand_drawn_train/train/ --outputfolder atoms_dataset/
@@ -43,7 +43,7 @@ This step assumes a pretrained AtomLenz model and some ProbKT prepared dataset (
 python robust_detection/train/train_fine_tune.py --og_data_path path_to_synthetic_dataset --target_data_path atoms_dataset/ --fold 0 --experiment_path locations_of_pretrained_atom_model
 ```
 
-The locations of the datasets and models needs to be adapted to each type (atoms/bonds/charges/stereos).
+The locations of the datasets and models need to be adapted to each type (atoms/bonds/charges/stereos).
 For the ``path_to_synthetic_dataset`` we recommend to create a random sample so that the number of samples is in the same order as the number of samples from the dataset in target domain.
 
 # Train (with self correcting mechanism) AtomLenz on target domain
