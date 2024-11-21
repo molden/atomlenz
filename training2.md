@@ -3,6 +3,13 @@
 This step assumes a pretrained AtomLenz model (on synthetic data) and will adapt to a target domain where only SMILES labels are available. 
 Pretrained AtomLenz can be obtained here: [pretrained atomlenz](./training.md)
 
+trained models using below steps can be found here:
+
+* Atom model: https://huggingface.co/spaces/moldenhof/atomlenz/resolve/main/models/atoms_model/real.ckpt
+* Bond model: https://huggingface.co/spaces/moldenhof/atomlenz/resolve/main/models/bonds_model/real.ckpt
+* Charge model: https://huggingface.co/spaces/moldenhof/atomlenz/resolve/main/models/charges_model/real.ckpt
+* Stereo center model: https://huggingface.co/spaces/moldenhof/atomlenz/resolve/main/models/stereos_model/real.ckpt
+
 # Prepare dataset
 
 AtomLenz can be trained on images with only SMILES labels. One such a dataset is available here: https://dx.doi.org/10.6084/m9.figshare.24599412 . 
