@@ -46,7 +46,7 @@ python robust_detection/train/train_fine_tune.py --og_data_path path_to_syntheti
 The locations of the datasets and models needs to be adapted to each type (atoms/bonds/charges/stereos).
 For the ``path_to_synthetic_dataset`` we recommend to create a random sample so that the number of samples is in the same order as the number of samples from the dataset in target domain.
 
-# Train (with self correcting mechanism) AtomLenz jointly on target domain
+# Train (with self correcting mechanism) AtomLenz on target domain
 
 ```
 python self_label.py --experiment_path_bonds ../ProbKT/robust_detection/train/logger/path_to_bonds_network  --experiment_path_charges ../ProbKT/robust_detection/train/logger/path_to_charge_network --experiment_path_stereo ../ProbKT/robust_detection/train/logger/path_to_stereos_network --experiment_path_atoms ../ProbKT/robust_detection/train/logger/path_to_atom_network  --data_path ../ProbKT/generate_data/path_to_dataset_target_domain --score_thresh 0.65
