@@ -27,3 +27,14 @@ python parse_smiles.py --datasetfolder hand_drawn_train/train/ --outputfolder ch
 ```
 python parse_smiles.py --datasetfolder hand_drawn_train/train/ --outputfolder stereos_dataset/ --parse_stereos 1
 ```
+
+# Train (with ProbKT) AtomLenz on each prepared dataset
+
+This step assumes a pretrained AtomLenz model and some ProbKT prepared dataset (previous step). For each prepared dataset from target domain now the pretrained AtomLenz model can be finetuned.
+
+```
+python robust_detection/train/train_fine_tune.py --og_data_path path_to_synthetic_dataset --target_data_path atoms_dataset/ --fold 0 --experiment_path locations_of_pretrained_atom_model
+```
+
+The locations of the datasets and models needs to be adapted to each type (atoms/bonds/charges/stereos).
+For the ``path_to_synthetic_dataset`` we recommend to create a random sample so that the number of samples is in the same order as the number of samples from the dataset in target domain.
